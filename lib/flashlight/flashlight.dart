@@ -12,7 +12,8 @@ bool isturn=false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Flashlight"),
+      
+      appBar: AppBar(title: Text("Flashlight", style: TextStyle(fontSize: 20),),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
