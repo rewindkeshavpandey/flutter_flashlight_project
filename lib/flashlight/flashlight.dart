@@ -12,6 +12,7 @@ bool isturn=false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //appbar
       appBar: AppBar(title: Text("Flashlight"),
       ),
       body: Column(
